@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5A8C721E82A30E00005CB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8C711E82A30E00005CB5 /* main.m */; };
+		8D5A8C751E82A30E00005CB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8C741E82A30E00005CB5 /* AppDelegate.m */; };
+		8D5A8C781E82A30E00005CB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8C771E82A30E00005CB5 /* ViewController.m */; };
+		8D5A8C8B1E82A30F00005CB5 /* UITextViewGestureRecognizerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8C8A1E82A30F00005CB5 /* UITextViewGestureRecognizerDemoTests.m */; };
+		8D5A8C961E82A30F00005CB5 /* UITextViewGestureRecognizerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A8C951E82A30F00005CB5 /* UITextViewGestureRecognizerDemoUITests.m */; };
+		8D94BC3B1E82A41E0093C737 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D94BC3A1E82A41E0093C737 /* Images.xcassets */; };
+		8F25044708BB586A4A5DAC7F /* libPods-UITextViewGestureRecognizerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FF2694C97D927909361CD0 /* libPods-UITextViewGestureRecognizerDemo.a */; };
+		94540B780F843F38E5CA5767 /* libPods-UITextViewGestureRecognizerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC54E86E8C50D170B561DA92 /* libPods-UITextViewGestureRecognizerDemoUITests.a */; };
+		D5E1557C78A7F533933F687E /* libPods-UITextViewGestureRecognizerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A73ADC6A3E12C09CAC0FE580 /* libPods-UITextViewGestureRecognizerDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D5A8C871E82A30F00005CB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D5A8C651E82A30E00005CB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5A8C6C1E82A30E00005CB5;
+			remoteInfo = UITextViewGestureRecognizerDemo;
+		};
+		8D5A8C921E82A30F00005CB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D5A8C651E82A30E00005CB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5A8C6C1E82A30E00005CB5;
+			remoteInfo = UITextViewGestureRecognizerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FF2694C97D927909361CD0 /* libPods-UITextViewGestureRecognizerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UITextViewGestureRecognizerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		369EBD571E751D0706DB2B79 /* Pods-UITextViewGestureRecognizerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextViewGestureRecognizerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITextViewGestureRecognizerDemo/Pods-UITextViewGestureRecognizerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4A5E06B6662F79EC64AFDFEE /* Pods-UITextViewGestureRecognizerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextViewGestureRecognizerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITextViewGestureRecognizerDemoUITests/Pods-UITextViewGestureRecognizerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F42B34F3278290C1177046A /* Pods-UITextViewGestureRecognizerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextViewGestureRecognizerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITextViewGestureRecognizerDemoTests/Pods-UITextViewGestureRecognizerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BD6919A580209FF1FDC8F7C /* Pods-UITextViewGestureRecognizerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextViewGestureRecognizerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITextViewGestureRecognizerDemoTests/Pods-UITextViewGestureRecognizerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A631810D8FB50AE21D9F947 /* Pods-UITextViewGestureRecognizerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextViewGestureRecognizerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITextViewGestureRecognizerDemo/Pods-UITextViewGestureRecognizerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8D5A8C6D1E82A30E00005CB5 /* UITextViewGestureRecognizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextViewGestureRecognizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5A8C711E82A30E00005CB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D5A8C731E82A30E00005CB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D5A8C741E82A30E00005CB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D5A8C761E82A30E00005CB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D5A8C771E82A30E00005CB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D5A8C811E82A30E00005CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5A8C861E82A30F00005CB5 /* UITextViewGestureRecognizerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextViewGestureRecognizerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5A8C8A1E82A30F00005CB5 /* UITextViewGestureRecognizerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextViewGestureRecognizerDemoTests.m; sourceTree = "<group>"; };
+		8D5A8C8C1E82A30F00005CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5A8C911E82A30F00005CB5 /* UITextViewGestureRecognizerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextViewGestureRecognizerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5A8C951E82A30F00005CB5 /* UITextViewGestureRecognizerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextViewGestureRecognizerDemoUITests.m; sourceTree = "<group>"; };
+		8D5A8C971E82A30F00005CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D94BC3A1E82A41E0093C737 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A73ADC6A3E12C09CAC0FE580 /* libPods-UITextViewGestureRecognizerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UITextViewGestureRecognizerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC54E86E8C50D170B561DA92 /* libPods-UITextViewGestureRecognizerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UITextViewGestureRecognizerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3BEA06F7815C6D631B9709 /* Pods-UITextViewGestureRecognizerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextViewGestureRecognizerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITextViewGestureRecognizerDemoUITests/Pods-UITextViewGestureRecognizerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5A8C6A1E82A30E00005CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F25044708BB586A4A5DAC7F /* libPods-UITextViewGestureRecognizerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5A8C831E82A30F00005CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E1557C78A7F533933F687E /* libPods-UITextViewGestureRecognizerDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5A8C8E1E82A30F00005CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94540B780F843F38E5CA5767 /* libPods-UITextViewGestureRecognizerDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11BB3FC9DAC08C0443E18BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05FF2694C97D927909361CD0 /* libPods-UITextViewGestureRecognizerDemo.a */,
+				A73ADC6A3E12C09CAC0FE580 /* libPods-UITextViewGestureRecognizerDemoTests.a */,
+				BC54E86E8C50D170B561DA92 /* libPods-UITextViewGestureRecognizerDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23E41585F9271925D71DA29A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A631810D8FB50AE21D9F947 /* Pods-UITextViewGestureRecognizerDemo.debug.xcconfig */,
+				369EBD571E751D0706DB2B79 /* Pods-UITextViewGestureRecognizerDemo.release.xcconfig */,
+				6BD6919A580209FF1FDC8F7C /* Pods-UITextViewGestureRecognizerDemoTests.debug.xcconfig */,
+				4F42B34F3278290C1177046A /* Pods-UITextViewGestureRecognizerDemoTests.release.xcconfig */,
+				4A5E06B6662F79EC64AFDFEE /* Pods-UITextViewGestureRecognizerDemoUITests.debug.xcconfig */,
+				DD3BEA06F7815C6D631B9709 /* Pods-UITextViewGestureRecognizerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D5A8C641E82A30E00005CB5 = {
+			isa = PBXGroup;
+			children = (
+				8D5A8C6F1E82A30E00005CB5 /* UITextViewGestureRecognizerDemo */,
+				8D5A8C891E82A30F00005CB5 /* UITextViewGestureRecognizerDemoTests */,
+				8D5A8C941E82A30F00005CB5 /* UITextViewGestureRecognizerDemoUITests */,
+				8D5A8C6E1E82A30E00005CB5 /* Products */,
+				23E41585F9271925D71DA29A /* Pods */,
+				11BB3FC9DAC08C0443E18BB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D5A8C6E1E82A30E00005CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5A8C6D1E82A30E00005CB5 /* UITextViewGestureRecognizerDemo.app */,
+				8D5A8C861E82A30F00005CB5 /* UITextViewGestureRecognizerDemoTests.xctest */,
+				8D5A8C911E82A30F00005CB5 /* UITextViewGestureRecognizerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D5A8C6F1E82A30E00005CB5 /* UITextViewGestureRecognizerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8D5A8C731E82A30E00005CB5 /* AppDelegate.h */,
+				8D5A8C741E82A30E00005CB5 /* AppDelegate.m */,
+				8D5A8C761E82A30E00005CB5 /* ViewController.h */,
+				8D5A8C771E82A30E00005CB5 /* ViewController.m */,
+				8D5A8C811E82A30E00005CB5 /* Info.plist */,
+				8D94BC3A1E82A41E0093C737 /* Images.xcassets */,
+				8D5A8C701E82A30E00005CB5 /* Supporting Files */,
+			);
+			path = UITextViewGestureRecognizerDemo;
+			sourceTree = "<group>";
+		};
+		8D5A8C701E82A30E00005CB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D5A8C711E82A30E00005CB5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D5A8C891E82A30F00005CB5 /* UITextViewGestureRecognizerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D5A8C8A1E82A30F00005CB5 /* UITextViewGestureRecognizerDemoTests.m */,
+				8D5A8C8C1E82A30F00005CB5 /* Info.plist */,
+			);
+			path = UITextViewGestureRecognizerDemoTests;
+			sourceTree = "<group>";
+		};
+		8D5A8C941E82A30F00005CB5 /* UITextViewGestureRecognizerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D5A8C951E82A30F00005CB5 /* UITextViewGestureRecognizerDemoUITests.m */,
+				8D5A8C971E82A30F00005CB5 /* Info.plist */,
+			);
+			path = UITextViewGestureRecognizerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5A8C6C1E82A30E00005CB5 /* UITextViewGestureRecognizerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5A8C9A1E82A30F00005CB5 /* Build configuration list for PBXNativeTarget "UITextViewGestureRecognizerDemo" */;
+			buildPhases = (
+				BEBB9E7F54A1E42345B028DB /* [CP] Check Pods Manifest.lock */,
+				8D5A8C691E82A30E00005CB5 /* Sources */,
+				8D5A8C6A1E82A30E00005CB5 /* Frameworks */,
+				8D5A8C6B1E82A30E00005CB5 /* Resources */,
+				2722A2A1754698507B1E656F /* [CP] Embed Pods Frameworks */,
+				4D75875216CF4A5D5AE32A87 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITextViewGestureRecognizerDemo;
+			productName = UITextViewGestureRecognizerDemo;
+			productReference = 8D5A8C6D1E82A30E00005CB5 /* UITextViewGestureRecognizerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D5A8C851E82A30F00005CB5 /* UITextViewGestureRecognizerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5A8C9D1E82A30F00005CB5 /* Build configuration list for PBXNativeTarget "UITextViewGestureRecognizerDemoTests" */;
+			buildPhases = (
+				193ED43CBC921815E7311253 /* [CP] Check Pods Manifest.lock */,
+				8D5A8C821E82A30F00005CB5 /* Sources */,
+				8D5A8C831E82A30F00005CB5 /* Frameworks */,
+				8D5A8C841E82A30F00005CB5 /* Resources */,
+				5A404B9FC0C85F19AEA58B28 /* [CP] Embed Pods Frameworks */,
+				3EE4C640C068ED21B8C5491C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D5A8C881E82A30F00005CB5 /* PBXTargetDependency */,
+			);
+			name = UITextViewGestureRecognizerDemoTests;
+			productName = UITextViewGestureRecognizerDemoTests;
+			productReference = 8D5A8C861E82A30F00005CB5 /* UITextViewGestureRecognizerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D5A8C901E82A30F00005CB5 /* UITextViewGestureRecognizerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5A8CA01E82A30F00005CB5 /* Build configuration list for PBXNativeTarget "UITextViewGestureRecognizerDemoUITests" */;
+			buildPhases = (
+				19E91A65F969DACE5F855E54 /* [CP] Check Pods Manifest.lock */,
+				8D5A8C8D1E82A30F00005CB5 /* Sources */,
+				8D5A8C8E1E82A30F00005CB5 /* Frameworks */,
+				8D5A8C8F1E82A30F00005CB5 /* Resources */,
+				498FEFDBA2F77B923174312C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D5A8C931E82A30F00005CB5 /* PBXTargetDependency */,
+			);
+			name = UITextViewGestureRecognizerDemoUITests;
+			productName = UITextViewGestureRecognizerDemoUITests;
+			productReference = 8D5A8C911E82A30F00005CB5 /* UITextViewGestureRecognizerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D5A8C651E82A30E00005CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sogou;
+				TargetAttributes = {
+					8D5A8C6C1E82A30E00005CB5 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 294BG3N6M7;
+						ProvisioningStyle = Automatic;
+					};
+					8D5A8C851E82A30F00005CB5 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D5A8C6C1E82A30E00005CB5;
+					};
+					8D5A8C901E82A30F00005CB5 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D5A8C6C1E82A30E00005CB5;
+					};
+				};
+			};
+			buildConfigurationList = 8D5A8C681E82A30E00005CB5 /* Build configuration list for PBXProject "UITextViewGestureRecognizerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D5A8C641E82A30E00005CB5;
+			productRefGroup = 8D5A8C6E1E82A30E00005CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5A8C6C1E82A30E00005CB5 /* UITextViewGestureRecognizerDemo */,
+				8D5A8C851E82A30F00005CB5 /* UITextViewGestureRecognizerDemoTests */,
+				8D5A8C901E82A30F00005CB5 /* UITextViewGestureRecognizerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5A8C6B1E82A30E00005CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D94BC3B1E82A41E0093C737 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5A8C841E82A30F00005CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5A8C8F1E82A30F00005CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		193ED43CBC921815E7311253 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		19E91A65F969DACE5F855E54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2722A2A1754698507B1E656F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITextViewGestureRecognizerDemo/Pods-UITextViewGestureRecognizerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EE4C640C068ED21B8C5491C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITextViewGestureRecognizerDemoTests/Pods-UITextViewGestureRecognizerDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		498FEFDBA2F77B923174312C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITextViewGestureRecognizerDemoUITests/Pods-UITextViewGestureRecognizerDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D75875216CF4A5D5AE32A87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITextViewGestureRecognizerDemo/Pods-UITextViewGestureRecognizerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A404B9FC0C85F19AEA58B28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITextViewGestureRecognizerDemoTests/Pods-UITextViewGestureRecognizerDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEBB9E7F54A1E42345B028DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5A8C691E82A30E00005CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5A8C781E82A30E00005CB5 /* ViewController.m in Sources */,
+				8D5A8C751E82A30E00005CB5 /* AppDelegate.m in Sources */,
+				8D5A8C721E82A30E00005CB5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5A8C821E82A30F00005CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5A8C8B1E82A30F00005CB5 /* UITextViewGestureRecognizerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5A8C8D1E82A30F00005CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5A8C961E82A30F00005CB5 /* UITextViewGestureRecognizerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D5A8C881E82A30F00005CB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5A8C6C1E82A30E00005CB5 /* UITextViewGestureRecognizerDemo */;
+			targetProxy = 8D5A8C871E82A30F00005CB5 /* PBXContainerItemProxy */;
+		};
+		8D5A8C931E82A30F00005CB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5A8C6C1E82A30E00005CB5 /* UITextViewGestureRecognizerDemo */;
+			targetProxy = 8D5A8C921E82A30F00005CB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D5A8C981E82A30F00005CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D5A8C991E82A30F00005CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D5A8C9B1E82A30F00005CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A631810D8FB50AE21D9F947 /* Pods-UITextViewGestureRecognizerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 294BG3N6M7;
+				INFOPLIST_FILE = UITextViewGestureRecognizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.protobuf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8D5A8C9C1E82A30F00005CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369EBD571E751D0706DB2B79 /* Pods-UITextViewGestureRecognizerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 294BG3N6M7;
+				INFOPLIST_FILE = UITextViewGestureRecognizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.protobuf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8D5A8C9E1E82A30F00005CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD6919A580209FF1FDC8F7C /* Pods-UITextViewGestureRecognizerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UITextViewGestureRecognizerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.UITextViewGestureRecognizerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextViewGestureRecognizerDemo.app/UITextViewGestureRecognizerDemo";
+			};
+			name = Debug;
+		};
+		8D5A8C9F1E82A30F00005CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F42B34F3278290C1177046A /* Pods-UITextViewGestureRecognizerDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UITextViewGestureRecognizerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.UITextViewGestureRecognizerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextViewGestureRecognizerDemo.app/UITextViewGestureRecognizerDemo";
+			};
+			name = Release;
+		};
+		8D5A8CA11E82A30F00005CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5E06B6662F79EC64AFDFEE /* Pods-UITextViewGestureRecognizerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = UITextViewGestureRecognizerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.UITextViewGestureRecognizerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UITextViewGestureRecognizerDemo;
+			};
+			name = Debug;
+		};
+		8D5A8CA21E82A30F00005CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3BEA06F7815C6D631B9709 /* Pods-UITextViewGestureRecognizerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = UITextViewGestureRecognizerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.UITextViewGestureRecognizerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UITextViewGestureRecognizerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D5A8C681E82A30E00005CB5 /* Build configuration list for PBXProject "UITextViewGestureRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5A8C981E82A30F00005CB5 /* Debug */,
+				8D5A8C991E82A30F00005CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5A8C9A1E82A30F00005CB5 /* Build configuration list for PBXNativeTarget "UITextViewGestureRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5A8C9B1E82A30F00005CB5 /* Debug */,
+				8D5A8C9C1E82A30F00005CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5A8C9D1E82A30F00005CB5 /* Build configuration list for PBXNativeTarget "UITextViewGestureRecognizerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5A8C9E1E82A30F00005CB5 /* Debug */,
+				8D5A8C9F1E82A30F00005CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5A8CA01E82A30F00005CB5 /* Build configuration list for PBXNativeTarget "UITextViewGestureRecognizerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5A8CA11E82A30F00005CB5 /* Debug */,
+				8D5A8CA21E82A30F00005CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D5A8C651E82A30E00005CB5 /* Project object */;
+}
